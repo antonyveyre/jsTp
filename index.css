@@ -1,0 +1,36 @@
+.rect {
+  border: 1px solid #000;
+  background: #FFF;
+}
+
+.shadow {
+  box-shadow: 2px 2px 2px #333;
+}
+
+.special {
+  color: red;
+  background: orange;
+  border-color: red;
+  box-shadow: 2px 2px 2px orange
+}
+
+
+.hidden {
+ display: none;
+}
+
+.success {
+  border: 1px dotted green;
+  color: green;
+  font-weight: bold
+}
+
+.failure {
+  border: 1px dotted red;
+  color: red;
+  font-weight: bold
+}
+
+.failure span {
+  font-style: italic;
+}

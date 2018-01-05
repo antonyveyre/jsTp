@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <title>JS Bin</title>
+  <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+  <button id="btn1" class="">Button 1</button>
+  <button id="btn2" class="">Button 2</button>
+  <button value="lkjlkjlkj"></button>
+
+  <ul>
+    <li>alfa</li>
+    <li>beta</li>
+    <li>gamma</li>
+    <li>delta</li>
+  </ul>
+
+
+  <form name="controls">
+    <label>Volume: </label>
+    <input type="range" id="volume" value="70" />
+  </form>
+
+  <video class="medium" autoplay width="300">
+    <source src="http://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4; codecs=&quot;avc1, mp4a&quot;">
+    <source src="http://media.w3.org/2010/05/sintel/trailer.ogv" type="video/ogg; codecs=&quot;theora, vorbis&quot;">
+    Your user agent does not support the HTML5 Video element.
+  </video>
+
+
+  <form>
+    <label>What color is a lemon?</label>
+    <select>
+      <option value=""      >  Choose color </option>
+      <option value="pink"  >  Pink         </option>
+      <option value="yellow">  Yellow       </option>
+      <option value="blue"  >  Blue         </option>
+      <option value="red"   >  Red          </option>
+    </select>
+  </form>
+
+  <form>
+    <label>quel est le résultat de 4 + 2 ?</label>
+    <input id='inpt2' type="number" />
+    <span id="sp2"></span>
+    <br/>
+    <button id="check" type="button">valider</button>
+
+  </form>
+
+  <button id='reset'>reset</button>
+  <p class="success hidden">Good answer!</p>
+  <p class="failure hidden">Fail! You answered "<span id="sp1"></span>" instead of "Yellow"</p>
+
+
+
+</body>
+<script src="index.js"></script>
+</html>
